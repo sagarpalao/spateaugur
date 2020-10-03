@@ -1,0 +1,2 @@
+model_checkpoint_path: "model_andheri.cpkt"
+all_model_checkpoint_paths: "model_andheri.cpkt"

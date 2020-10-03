@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="867px" height="39px" viewBox="0 0 867 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+    <title>legend</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="931" height="39"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="legend" transform="translate(-28.000000, 0.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Rectangle-11"></g>
+            <g id="indicator-1" mask="url(#mask-2)">
+                <g transform="translate(28.000000, 0.000000)">
+                    <text id="Lowest" fill="none" font-family="Roboto-Medium, Roboto" font-size="24" font-weight="400">
+                        <tspan x="83" y="32" fill="#2E2E3A">Lowest</tspan>
+                    </text>
+                    <rect id="Rectangle-12" fill="#2ec4b6" fill-rule="evenodd" x="0" y="0" width="69" height="39" rx="5"></rect>
+                </g>
+            </g>
+            <g id="indicator-1-copy" mask="url(#mask-2)">
+                <g transform="translate(207.000000, 0.000000)">
+                    <text id="Low" fill="none" font-family="Roboto-Medium, Roboto" font-size="24" font-weight="400">
+                        <tspan x="83" y="32" fill="#2E2E3A">Low</tspan>
+                    </text>
+                    <rect id="Rectangle-12" fill="#ff9f1c" fill-rule="evenodd" x="0" y="0" width="69" height="39" rx="5"></rect>
+                </g>
+            </g>
+            <g id="indicator-1-copy" mask="url(#mask-2)">
+                <g transform="translate(381.000000, 0.000000)">
+                    <text id="Normal" fill="none" font-family="Roboto-Medium, Roboto" font-size="24" font-weight="400">
+                        <tspan x="80" y="33" fill="#2E2E3A">Normal</tspan>
+                    </text>
+                    <rect id="Rectangle-12" fill="#F7B32B" fill-rule="evenodd" x="0" y="0" width="69" height="39" rx="5"></rect>
+                </g>
+            </g>
+            <g id="indicator-1-copy" mask="url(#mask-2)">
+                <g transform="translate(555.000000, 0.000000)">
+                    <text id="High" fill="none" font-family="Roboto-Medium, Roboto" font-size="24" font-weight="400">
+                        <tspan x="84" y="33" fill="#2E2E3A">High</tspan>
+                    </text>
+                    <rect id="Rectangle-12" fill="#F55D3E" fill-rule="evenodd" x="0" y="0" width="69" height="39" rx="5"></rect>
+                </g>
+            </g>
+            <g id="indicator-1-copy" mask="url(#mask-2)">
+                <g transform="translate(729.000000, 0.000000)">
+                    <text id="Highest" fill="none" font-family="Roboto-Medium, Roboto" font-size="24" font-weight="400">
+                        <tspan x="83" y="33" fill="#2E2E3A">Highest</tspan>
+                    </text>
+                    <rect id="Rectangle-12" fill="#C81D25" fill-rule="evenodd" x="0" y="0" width="69" height="39" rx="5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

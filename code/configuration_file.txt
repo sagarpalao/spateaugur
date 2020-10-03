@@ -1,0 +1,2 @@
+BARC Hospital,Chembur,Microsoft SQL Server,127.0.0.1,8080,hospitaldata,yes,root
+patient_data,no,s_d,s_m,s_y,disease,locality

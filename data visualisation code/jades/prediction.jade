@@ -1,0 +1,84 @@
+doctype html
+html
+  head
+    title Predictions
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale")
+    link(rel="stylesheet", href="styles/prediction.css")
+    link(rel="stylesheet", href="styles/history.css")
+    link(rel="stylesheet", href="styles/index.css")
+    link(rel="stylesheet", href="leaflet/leaflet.css")
+
+    
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+    //script(src="/scripts/brand-parallax.js")
+    script(src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js")
+    script(src="/scripts/nav-clicks.js")
+    script(type="text/javascript" src="mumbaigeo.js")
+    script(type="text/javascript" src="https://www.gstatic.com/charts/loader.js")
+body
+    
+    input(type="checkbox", id="sidebartoggler", name="", value="")
+    
+    .content
+      
+      label(for="sidebartoggler", class="toggle") ☰
+      
+      .section-container
+        .empty-red-space
+        .title-header-history-container
+          p.title-header-history Predictions 
+        .map-plotting-container
+          #map-display
+        .map-legend-container
+          img(src="/assets/legend.svg")
+        .history-selection-container
+          h3.sub-title
+            |Prediction for  
+            span.diseasespan
+              | diseasename  
+          .history-form-element-container  
+            .selectors_container
+              select(class="select",id="region-select")
+                option(value="0") Kandivali
+                option(value="1") Malad
+                option(value="2") Goregaon
+                option(value="3") Vile_Parle
+                option(value="4") Ghatkopar
+                option(value="5") Kurla
+                option(value="6") Bandra
+                option(value="7") Chembur
+                option(value="8") Wadala
+                option(value="9") Dadar
+                option(value="10") Sewree
+                option(value="11") Parel
+                option(value="12") Buleshwar
+                option(value="13") Colaba
+              select(class="select",id="disease-select")
+                option(value="0") Malaria
+                option(value="1") Dengue
+                option(value="2") Chickengunia
+                option(value="3") Typhoid
+                option(value="4") Cholera
+                option(value="5") Jaundice
+                option(value="6") Tuberculosis
+                option(value="7") Viral Fever
+                option(value="8") Flu
+                option(value="9") Diarrohea                            
+            //h3.sub-title Analysis
+            //#chart_div
+      .sidebar
+        ul
+          li 
+            a(href="index.html" class="nav-home") Home
+          li 
+            a(href="prediction.html" class="nav-predictions") Predictions
+          li 
+            a(href="history.html" class="nav-history") History
+          //li
+            //a(href="#" class="nav-add-disease") Add Disease
+      
+      
+      script(src="/leaflet/leaflet.js")
+      script(type="text/javascript" src="/scripts/prediction-maps-display.js")
+      

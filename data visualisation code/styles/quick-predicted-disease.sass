@@ -1,0 +1,65 @@
+@import "variables"
+
+.quick-predicted-disease
+  height: 100vh
+  background-color: $dull-white
+  background-size: cover
+
+.disease-container
+  padding: 5%
+  display: flex
+  flex-wrap: wrap
+  align-content: center
+
+.disease-one
+  background-color: white
+  display: block
+  border-radius: 5%
+  margin: 2%
+  width: 25%
+  position: relative
+  opacity: 0
+  transform: translateX(-20px)
+  transition: all 0.3s ease-in-out
+
+  &.is-showing-disease
+    opacity: 1
+    transform: translateX(0px)
+
+  &:hover
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)
+    cursor: pointer
+
+.disease-name
+  background-color: $primary-red
+  padding: 2%
+  font-size: 30px
+  padding-left: 4%
+  padding-right: 5%
+  padding-top: 6%
+  padding-bottom: 3%
+  font-family: 'Roboto Condensed', sans-serif
+  font-weight: bold
+  color: white
+  border-top-right-radius: 3%
+  border-bottom-right-radius: 3%
+
+.disease-info
+  background-color: white
+  padding: 8%
+  font-size: 24px
+  font-weight: normal
+  font-family: 'Roboto Condensed', sans-serif
+
+.disease-info span
+  font-weight: bold
+
+.title-header
+  position: relative
+  opacity: 0
+  transform: translateY(-20px)
+  transition: all 0.5s ease-in-out
+
+  &.is-showing-title
+    opacity: 1
+    transform: translateX(0px)

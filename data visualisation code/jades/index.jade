@@ -1,0 +1,52 @@
+doctype html
+html
+  head
+    title SpateAugur
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale")
+    link(rel="stylesheet", href="styles/index.css")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+    script(src="/scripts/brand-parallax.js")
+    script(src="/scripts/nav-clicks.js")
+    script(src="/scripts/index.js")
+body
+    
+    input(type="checkbox", id="sidebartoggler", name="", value="")
+    
+    .content
+      
+      label(for="sidebartoggler", class="toggle") ☰
+      
+      .section-container
+        .splash-container
+          .cloud
+            img(src="assets/cloud.svg" alt="Cloud" class="logo-icon")
+          .germs
+            img(src="assets/germs.svg" alt="Germs" class="logo-icon")
+          .heartbeat
+            img(src="assets/heartbeat.svg" alt="Heartbeat" class="logo-icon")
+          .history
+            img(src="assets/history.svg" alt="History" class="logo-icon")
+          .location
+            img(src="assets/location.svg" alt="Location")
+          .predictions
+            img(src="assets/predictions.svg" alt="Predictions" class="logo-icon")
+          h1.site-title SpateAugur
+          p.scroll-down-title Scroll down
+          p.scroll-down-arrow ▾
+        .quick-predicted-disease
+          .title-header-container
+            p.title-header Predicted Disease for next 5 days
+          .disease-container
+        
+      .sidebar
+        ul
+          li 
+            a(href="index.html" class="nav-home") Home
+          li 
+            a(href="prediction.html" class="nav-predictions") Predictions
+          li 
+            a(href="history.html" class="nav-history") History
+          //li
+            //a(href="#" class="nav-add-disease") Add Disease
+          

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>History</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <link rel="stylesheet" href="styles/history.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="leaflet/leaflet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--script(src="/scripts/brand-parallax.js")-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="/scripts/nav-clicks.js"></script>
+    <script type="text/javascript" src="mumbaigeo.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  </head>
+</html>
+<body>
+  <input type="checkbox" id="sidebartoggler" name="" value="">
+  <div class="content">
+    <label for="sidebartoggler" class="toggle">☰</label>
+    <div class="section-container">
+      <div class="empty-red-space"></div>
+      <div class="title-header-history-container">
+        <p class="title-header-history">History </p>
+      </div>
+      <div class="map-plotting-container">
+        <div id="map-display"></div>
+      </div>
+      <div class="map-legend-container"><img src="/assets/legend.svg"></div>
+      <div class="history-selection-container">
+        <h3 class="sub-title">
+           
+          History Timeline  <span class="diseasespan">diseasename  </span>
+        </h3>
+        <div class="history-form-element-container"> 
+          <div class="play-button">
+            <p>▶</p>
+          </div>
+          <input id="timeline-seekbar" type="range" min="1" max="51" value="0" step="1" class="seekbar">
+          <p class="week-indicator">21 WEEK  </p>
+          <div class="selectors_container">
+            <select id="region-select" class="select">
+              <option value="0">Kandivali</option>
+              <option value="1">Malad</option>
+              <option value="2">Goregaon</option>
+              <option value="3">Vile_Parle</option>
+              <option value="4">Ghatkopar</option>
+              <option value="5">Kurla</option>
+              <option value="6">Bandra</option>
+              <option value="7">Chembur</option>
+              <option value="8">Wadala</option>
+              <option value="9">Dadar</option>
+              <option value="10">Sewree</option>
+              <option value="11">Parel</option>
+              <option value="12">Buleshwar</option>
+              <option value="13">Colaba</option>
+            </select>
+            <select id="disease-select" class="select">
+              <option value="0">Malaria</option>
+              <option value="1">Dengue</option>
+              <option value="2">Chickengunia</option>
+              <option value="3">Typhoid</option>
+              <option value="4">Cholera</option>
+              <option value="5">Jaundice</option>
+              <option value="6">Tuberculosis</option>
+              <option value="7">Viral Fever</option>
+              <option value="8">Flu</option>
+              <option value="9">Diarrohea</option>
+            </select>
+          </div>
+          <h3 class="sub-title">Analysis Graph</h3>
+          <div id="chart_div"></div>
+          <div class="accuracy_graph_container">
+            <h3 class="sub-title">Accuracy Graph</h3>
+            <div id="chart_acc_div"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sidebar">
+      <ul>
+        <li> <a href="index.html" class="nav-home">Home</a></li>
+        <li> <a href="prediction.html" class="nav-predictions">Predictions</a></li>
+        <li> <a href="history.html" class="nav-history">History</a></li>
+        <!--li
+        //a(href="#" class="nav-add-disease") Add Disease
+        
+        
+        -->
+      </ul>
+    </div>
+    <script src="/leaflet/leaflet.js"></script>
+    <script type="text/javascript" src="/scripts/history-map-display.js"></script>
+  </div>
+</body>
