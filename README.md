@@ -47,7 +47,9 @@ The system is a self-learning and ever learning model. To learn it needs dynamic
 
 <hr/>
 
-## How:
+## How does it works?
+
+![alt text](documentation/concept_diagram.png)
 
 ### Data Collection Unit
 It is responsible to collect data in real time. Primarily two set of data is collected. It includes:
@@ -84,4 +86,21 @@ By means of diverse visualization we make the health control board understand th
 * Health Officials
 * Hospitals
 * Reduction in Mortality Rate
+
+## Working Snaps
+
+1. Visualisation dashboard  
+![alt text](documentation/visualization_1.png)
+
+2. View history of diseases and its spread in a timeline  
+![alt text](documentation/visualization_2.png)
+
+3. Predictions for next 5 days in a heatmap  
+![alt text](documentation/visualization_4.png)
+
+4. Accuracy chart for predicted and actual diseases spread in a ward     
+![alt text](documentation/visualization_3.png)
+
+5. Alert sent to general public via. SMS  
+![alt text](documentation/visualization_5.png)
 
